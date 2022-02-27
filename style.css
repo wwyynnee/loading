@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+main {
+    padding: 1rem;
+}
+@keyframes ellipsis {
+    to {
+      width: 1.25em;
+    }
+}
+canvas#background {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+.exit {
+    display: flex;
+    justify-content: flex-end;
+}
+a:hover {
+    opacity: 0.3;
+}
